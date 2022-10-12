@@ -10,7 +10,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    
+
 }
 
 
@@ -27,7 +27,7 @@ footer {
 
 .media_links li {
     float: left;
-    padding: 20px;
+    padding: 1vw;
 }
 
 .media_links li img {
