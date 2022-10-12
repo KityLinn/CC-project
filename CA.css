@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2E45;
+}
+
+footer {
+    background-color: #D9D9D9;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+
+.media_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.media_links li {
+    float: left;
+    padding: 20px;
+}
+
+.media_links li img {
+    height: 30px;
+    width: 30px;
+}
