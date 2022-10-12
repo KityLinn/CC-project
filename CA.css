@@ -7,12 +7,41 @@ body {
 }
 
 .main_header {
-    height: 10vh;
+    height: 16vh;
+    width: 100%;
     background-color: #E3E3E3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: stretch;
+}
+
+.mainlogo {
+    padding: 10px;
+    margin-left: 5vw;
+    flex: 0.1;
+}
+
+
+.searchbar {
+    height: 3vh;
+    flex: 0.5;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+    
+
 }
 
 .main_nav {
-    height: 6vh;
+    height: 7vh;
+    width: 100%;
     background-color: #F4F2F2;
     border-radius: 0px 0px 10px 10px;
 }
