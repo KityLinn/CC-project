@@ -14,10 +14,10 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
   align-items: center;
   column-gap: 8vw;
-  margin: 0px;
+  margin: 0;
+  
 }
 
 .mainlogo {
@@ -33,7 +33,14 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  gap: 2vw;
+  gap: 1.6vw;
+}
+
+@media (max-width: 1376px) {
+    .navigation2 {
+        margin-left: 40vw;
+        padding-bottom: 2%;
+    }
 }
 
 .navigation2 li {
@@ -66,7 +73,7 @@ body {
 
 .searchbar {
   height: 3vh;
-  width: 36%;
+  width: 40vw;
   color: black;
   text-align: left;
   padding: 14px 16px;
