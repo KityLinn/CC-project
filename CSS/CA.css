@@ -38,8 +38,9 @@ body {
 
 @media (max-width: 1376px) {
     .navigation2 {
-        margin-left: 40vw;
+        margin-left: 35vw;
         padding-bottom: 2%;
+        gap: 4vw;
     }
 }
 
@@ -81,6 +82,19 @@ body {
   font-size: 17px;
   border-radius: 20px;
   position: relative;
+}
+
+@media (max-width: 1376px) {
+    .searchbar {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 511px) {
+    .searchbar {
+        width: 40vw;
+    }
+    
 }
 
 .main_nav {
