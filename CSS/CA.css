@@ -51,9 +51,9 @@ body {
     }
 }
 
-@media (max-width: 561px) {
+@media (max-width: 540px) {
     .navigation2 {
-        margin-left: 20vw;
+        margin-left: 24vw;
         padding-bottom: 2%;
         gap: 4vw;
     }
@@ -115,8 +115,8 @@ body {
 
 @media (max-width: 540px) {
     .searchbar {
-        width: 36vw;
-        padding: 10px 10px;
+        width: 38vw;
+        padding: 12px 12px;
     }
     
 }
