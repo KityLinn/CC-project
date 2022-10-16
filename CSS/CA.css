@@ -181,6 +181,14 @@ footer {
   padding-left: 2vw;
 }
 
+@media (max-width: 1000px) {
+   .media_links li {
+    margin-top: 2vh;
+    padding-left: 5vw;
+   }
+    
+}
+
 .media_links li img {
   height: 30px;
   width: 32px;
