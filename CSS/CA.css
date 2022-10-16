@@ -26,6 +26,13 @@ body {
   height: 14vh;
 }
 
+@media (max-width: 500px) {
+    .mainlogo {
+        height: 12vh;
+    }
+    
+}
+
 .navigation2 {
   list-style-type: none;
   margin: 0;
@@ -52,6 +59,14 @@ body {
     }
 }
 
+
+@media (max-width: 420px) {
+    .navigation2 {
+        margin-left: 10vw;
+        padding-bottom: 2%;
+        gap: 4vw;
+    }
+}
 .navigation2 li {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -101,13 +116,14 @@ body {
 @media (max-width: 540px) {
     .searchbar {
         width: 36vw;
+        padding: 10px 10px;
     }
     
 }
 
 @media (max-width: 408px) {
     .searchbar {
-        width: 30vw;
+        width: 36vw;
     }
     
 }
