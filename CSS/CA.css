@@ -26,9 +26,9 @@ body {
   height: 14vh;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     .mainlogo {
-        height: 12vh;
+        height: 13vh;
     }
     
 }
@@ -43,9 +43,9 @@ body {
   gap: 1.6vw;
 }
 
-@media (max-width: 1376px) {
+@media (max-width: 1375px) {
     .navigation2 {
-        margin-left: 35vw;
+        margin-left: 33vw;
         padding-bottom: 2%;
         gap: 4vw;
     }
@@ -71,6 +71,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   font-weight: 500;
+  font-size: 1em;
 }
 
 .navigation2 a {
@@ -107,7 +108,7 @@ body {
   position: relative;
 }
 
-@media (max-width: 1376px) {
+@media (max-width: 1375px) {
     .searchbar {
         width: 50vw;
     }
@@ -115,13 +116,13 @@ body {
 
 @media (max-width: 540px) {
     .searchbar {
-        width: 38vw;
+        width: 43vw;
         padding: 12px 12px;
     }
     
 }
 
-@media (max-width: 408px) {
+@media (max-width: 420px) {
     .searchbar {
         width: 36vw;
     }
@@ -156,7 +157,15 @@ body {
   color: #212121;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 1em;
 }
+
+@media (max-width: 540px) {
+  .navigation li a {
+    font-size: 0.8em;
+  }
+}
+
 
 footer {
   background-color: #d9d9d9;
