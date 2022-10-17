@@ -135,7 +135,7 @@ body {
 @media (max-width: 540px) {
   .searchbar {
     width: 43vw;
-    padding: 12px 12px;
+    padding: 10px 12px;
   }
 }
 
@@ -196,38 +196,27 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-.media_links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.media_links li {
-  float: left;
-  padding: 1vw;
-  padding-left: 2vw;
+.social_media {
+  overflow: hidden;
+
+}
+.media_links {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  gap: 4vw;
+
+
 }
 
-@media (max-width: 1000px) {
-  .media_links li {
-    margin-top: 2vh;
-    padding-left: 5vw;
-  }
-}
 
 .media_links li img {
   height: 30px;
-  width: 32px;
+  width: 30px;
 }
 
-@media (max-width: 540px) {
-  .media_links li img {
-    height: 25px;
-    width: 25px;
-  }
-}
