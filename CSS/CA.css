@@ -17,11 +17,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  column-gap: 8vw;
+  column-gap: 7vw;
   margin: 0;
-  
 }
-
 
 .mainlogo {
   padding: 10px;
@@ -30,19 +28,23 @@ body {
 }
 
 @media (max-width: 540px) {
-    .mainlogo {
-        height: 13vh;
-    }
-    
+  .mainlogo {
+    height: 13vh;
+  }
 }
 
 @media (max-width: 420x) {
   .mainlogo {
-      margin-left: 0;
+    margin-left: 0;
+    padding: 0;
   }
-  
 }
 
+@media (max-width: 358px) {
+  .mainlogo {
+    margin-left: 30vw;
+  }
+}
 
 .navigation2 {
   list-style-type: none;
@@ -55,28 +57,33 @@ body {
 }
 
 @media (max-width: 1375px) {
-    .navigation2 {
-        margin-left: 33vw;
-        padding-bottom: 2%;
-        gap: 4vw;
-    }
+  .navigation2 {
+    margin-left: 33vw;
+    padding-bottom: 2%;
+    gap: 4vw;
+  }
 }
 
 @media (max-width: 540px) {
-    .navigation2 {
-        margin-left: 24vw;
-        padding-bottom: 2%;
-        gap: 4vw;
-    }
+  .navigation2 {
+    margin-left: 24vw;
+    padding-bottom: 2%;
+    gap: 4vw;
+  }
 }
 
-
 @media (max-width: 420px) {
-    .navigation2 {
-        margin-left: 15vw;
-        padding-bottom: 2%;
-        gap: 4vw;
-    }
+  .navigation2 {
+    margin-left: 15vw;
+    padding-bottom: 2%;
+    gap: 4vw;
+  }
+}
+
+@media (max-width: 358px) {
+  .navigation2 {
+    margin-left: 4vw;
+  }
 }
 .navigation2 li {
   font-family: "Roboto", sans-serif;
@@ -120,24 +127,28 @@ body {
 }
 
 @media (max-width: 1375px) {
-    .searchbar {
-        width: 50vw;
-    }
+  .searchbar {
+    width: 50vw;
+  }
 }
 
 @media (max-width: 540px) {
-    .searchbar {
-        width: 43vw;
-        padding: 12px 12px;
-    }
-    
+  .searchbar {
+    width: 43vw;
+    padding: 12px 12px;
+  }
 }
 
 @media (max-width: 420px) {
-    .searchbar {
-        width: 38vw;
-    }
-    
+  .searchbar {
+    width: 38vw;
+  }
+}
+
+@media (max-width: 358px) {
+  .searchbar {
+    display: none;
+  }
 }
 
 /* secondary header with Media queries */
@@ -179,7 +190,6 @@ body {
 
 /* Footer with Media queries */
 
-
 footer {
   background-color: #d9d9d9;
   height: 10vh;
@@ -204,11 +214,10 @@ footer {
 }
 
 @media (max-width: 1000px) {
-   .media_links li {
+  .media_links li {
     margin-top: 2vh;
     padding-left: 5vw;
-   }
-    
+  }
 }
 
 .media_links li img {
@@ -221,5 +230,4 @@ footer {
     height: 25px;
     width: 25px;
   }
-   
 }
