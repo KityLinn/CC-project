@@ -556,12 +556,20 @@ body {
 
   }
   .email {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 
   }
 
   .submitbutton {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+
+  }
+
+  .singup {
+    width: 80vw;
+  }
+  .signup_box {
+    max-width: 60vw;
 
   }
 
