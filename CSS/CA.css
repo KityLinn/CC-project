@@ -253,8 +253,15 @@ body {
   
 }
 
-.cta_main h2,
-h3 {
+.cta_main h2 {
+  color: #f4f2f2;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0.01;
+}
+
+.cta_main h3 {
   color: #f4f2f2;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -371,9 +378,6 @@ h3 {
   flex-direction: row;
   align-items: flex-start;
 
-
-  
-
   
 
 }
@@ -443,6 +447,126 @@ h3 {
 
  }
 
+ /* Main content newsletter*/
+
+.newsletter_section {
+  margin-top: 5vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter {
+  height: 7vh;
+  width: 80vw;
+  background-color:#F4F2F2;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  box-shadow: inset 0 0 10px #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+
+}
+
+.singup {
+  margin-top: 5vh;
+  width: 60vw;
+  min-height: 60vh;
+  background-image: url(../images/keyboard-ga36c8fe8c_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+
+.signup_color {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.082);
+  padding: 0;
+  margin: 0;
+}
+
+.signup_main {
+  min-height: 30vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: inherit;
+  padding: 0;
+  padding-top: 3vh;
+
+}
+
+.signup_main p {
+  color: #212121;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0.01;
+}
+
+.signup_box {
+  min-height: 30vh;
+  max-width: 40vw;
+  overflow: hidden;
+  background-color: #F4F2F2;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: inset 0 0 10px #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.signup_main p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.email {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+.submitbutton {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+@media (max-width:626px) {
+  .signup_main p {
+    font-size: 0.9rem;
+
+  }
+  .email {
+    font-size: 0.7rem;
+
+  }
+
+  .submitbutton {
+    font-size: 0.7rem;
+
+  }
+
+  
+}
 
 
 /* Footer with Media queries */
