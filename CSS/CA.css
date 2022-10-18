@@ -413,8 +413,19 @@ h3 {
     width: 140px;
     margin: 0;
   }
+  .space {
+    margin: 0;
+  }
 
-} 
+}
+
+@media (max-width:525px) {
+  .space {
+    margin: auto;
+  }
+  
+ }
+  
 
 .games_container img {
   width: 100%;
@@ -437,13 +448,7 @@ h3 {
 
  }
 
- @media (max-width:525px) {
-  .space {
-    margin: auto;
-  }
-  
- }
-  
+
 
 /* Footer with Media queries */
 
