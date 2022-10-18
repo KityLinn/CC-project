@@ -203,7 +203,6 @@ body {
 
 .cta {
   width: 80vw;
-  height: 60vh;
   background-image: url(../images/robert-torres-RhiBonWtisw-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,12 +211,7 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 553px)  {
-  .cta {
-    height: 45vh;
-  }
-  
-}
+
 
 .cta_color {
   height: 100%;
@@ -230,7 +224,8 @@ body {
 }
 
 .cta_main {
-  height: 60vh;
+  min-height: 50vh;
+  overflow: hidden;
   width: 50%;
   display: flex;
   align-items: center;
@@ -254,7 +249,7 @@ body {
   color: #212121;
   font-family: "Lato", sans-serif;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.8rem;
   
 }
 
@@ -317,12 +312,12 @@ h3 {
 
 @media (max-width: 553px) {
   .cta_main h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
   }
   .cta_main h2 {
 
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 
   }
   .cta_main h3 {
@@ -331,7 +326,7 @@ h3 {
   }
 
   .cta_main {
-    padding-top: 4vh;
+    padding-top: 7vh;
     width: 80%;
 
 }
