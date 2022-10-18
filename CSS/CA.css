@@ -362,7 +362,7 @@ h3 {
 
 .latest_games {
   margin-top: 5vh;
-  min-height: 70vh;
+  min-height: 60vh;
   overflow: hidden;
   width: 80vw;
   display: flex;
