@@ -576,6 +576,22 @@ body {
   
 }
 
+@media (max-width: 358px) {
+  .signup_main p {
+    font-size: 0.8rem;
+
+  }
+  .email {
+    font-size: 0.7rem;
+
+  }
+
+  .submitbutton {
+    font-size: 0.7rem;
+
+  }
+}
+
 
 /* Footer with Media queries */
 
