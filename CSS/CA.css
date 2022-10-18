@@ -203,7 +203,7 @@ body {
 }
 
 .cta {
-  width: 75vw;
+  width: 80vw;
   height: 60vh;
   background-image: url(../images/robert-torres-RhiBonWtisw-unsplash.jpg);
   background-size: cover;
@@ -303,7 +303,7 @@ h3 {
   }
 
   .cta_main {
-    padding-top: 8vh;
+    padding-top: 7vh;
     width: 80%;
   }
 
@@ -329,6 +329,8 @@ h3 {
     width: 80%;
 
 }
+
+
 }
 
   
