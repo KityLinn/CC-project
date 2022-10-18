@@ -367,7 +367,8 @@ h3 {
 
 .latest_games {
   margin-top: 5vh;
-  height: 70vh;
+  min-height: 70vh;
+  overflow: hidden;
   width: 80vw;
   display: flex;
   flex-wrap: wrap;
@@ -375,20 +376,45 @@ h3 {
   flex-direction: row;
   align-items: flex-start;
 
+
   
 
   
 
 }
 .games_container {
-
-  width: 20vw;
+  width: 250px;
   background-color: #F4F2F2;
   margin: 0;
   padding: 0;
   border-radius: 0px 0px 10px 10px;
   
 }
+
+@media (max-width:620px) {
+  .games_container {
+    width: 100px;
+    margin: 0;
+  }
+}
+
+
+@media (max-width:937px) {
+  .space {
+    margin: auto;
+
+  }
+
+  
+}
+
+@media (max-width:626px) {
+  .games_container {
+    width: 140px;
+    margin: 0;
+  }
+
+} 
 
 .games_container img {
   width: 100%;
@@ -403,6 +429,20 @@ h3 {
   margin: 0;
 }
 
+@media (max-width:626px) {
+
+.games_container p {
+  font-size: 0.8em;
+}
+
+ }
+
+ @media (max-width:525px) {
+  .space {
+    margin: auto;
+  }
+  
+ }
   
 
 /* Footer with Media queries */
@@ -444,4 +484,3 @@ footer {
   font-size: 2rem;
   color: black;
 }
-
