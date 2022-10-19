@@ -365,7 +365,14 @@ body {
 }
 
 .latest h2 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width:524px) {
+  .latest h2 {
+    font-size: 1.1rem;
+  }
+  
 }
 
 .latest_games {
