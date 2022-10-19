@@ -208,7 +208,9 @@ body {
     border-radius: 5px;
     font-family: "Lato", sans-serif;
     box-shadow: inset 0 0 10px #212121;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  
   }
   
@@ -220,7 +222,7 @@ body {
   
   @media (max-width:524px) {
     .games_head h2 {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
     }
     
   }
@@ -228,7 +230,7 @@ body {
   
   @media (max-width:482px) {
     .games_head h2 {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
     
   }
@@ -332,21 +334,21 @@ body {
 
   @media (max-width:682px) {
     .games_container p {
-      font-size: 0.6em;
+      font-size: 0.7em;
     }
     
   }
 
   @media (max-width:588px) {
     .games_container p {
-      font-size: 0.5em;
+      font-size: 0.6em;
     }
     
   }
 
   @media (max-width:482px) {
     .games_container p {
-      font-size: 0.4em;
+      font-size: 0.5em;
     }
     
   }
