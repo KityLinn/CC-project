@@ -57,32 +57,32 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  gap: 1.6vw;
+  gap: 0.8vw;
 }
 
 
 
 @media (max-width: 1375px) {
   .navigation2 {
-    margin-left: 35vw;
+    margin-left: 30vw;
     padding-bottom: 2%;
-    gap: 4vw;
+    gap: 3vw;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 544px) {
   .navigation2 {
-    margin-left: 24vw;
+    margin-left: 22vw;
     padding-bottom: 2%;
-    gap: 4vw;
+    gap: 2.2vw;
   }
 }
 
 @media (max-width: 420px) {
   .navigation2 {
-    margin-left: 10vw;
+    margin-left: 12vw;
     padding-bottom: 2%;
-    gap: 4vw;
+    gap: 2.2vw;
   }
 }
 
@@ -91,15 +91,14 @@ body {
     margin-left: 4vw;
   }
 }
-.navigation2 li {
+
+.navigation2 a {
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: #212121;
   font-weight: 500;
   font-size: 1em;
-}
 
-.navigation2 a {
-  text-decoration: none;
 }
 
 .navigation2 li img {
