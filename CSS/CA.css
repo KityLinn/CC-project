@@ -337,7 +337,7 @@ body {
 
 } }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .cta_main h1 {
     font-size: 1.4rem;
   
