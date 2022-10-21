@@ -57,32 +57,32 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  gap: 0.8vw;
+  gap: 1.5vw;
 }
 
 
 
 @media (max-width: 1375px) {
   .navigation2 {
-    margin-left: 30vw;
+    margin-left: 23vw;
     padding-bottom: 2%;
-    gap: 3vw;
+    gap: 8vw;
   }
 }
 
 @media (max-width: 544px) {
   .navigation2 {
-    margin-left: 22vw;
+    margin-left: 12vw;
     padding-bottom: 2%;
-    gap: 2.2vw;
+    gap: 8vw;
   }
 }
 
 @media (max-width: 420px) {
   .navigation2 {
-    margin-left: 12vw;
+    margin-left: 9vw;
     padding-bottom: 2%;
-    gap: 2.2vw;
+    gap: 5vw;
   }
 }
 
