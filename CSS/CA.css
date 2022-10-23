@@ -46,7 +46,7 @@ body {
 
 @media (max-width: 358px) {
   .mainlogo {
-    margin-left: 23vw;
+    margin-left: 25vw;
   }
 }
 
@@ -271,7 +271,7 @@ body {
   text-align: center;
   padding: 0;
   margin: 0.01;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 
@@ -286,7 +286,7 @@ body {
 
   }
   .cta_main h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
   }
 
@@ -339,7 +339,7 @@ body {
 
 @media (max-width: 425px) {
   .cta_main h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   
   }
   .cta_main h2 {
@@ -348,7 +348,8 @@ body {
   
   }
   .cta_main h3 {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    
   
   }
   
@@ -427,6 +428,7 @@ body {
 @media (max-width:937px) {
   .space {
     margin: auto;
+    margin-top: 30px;
 
   }
 
@@ -447,6 +449,7 @@ body {
 @media (max-width:525px) {
   .space {
     margin: auto;
+    margin-top: 20px;
   }
   
  }
@@ -456,6 +459,7 @@ body {
   .games_container {
     width: 100px;
   }
+
   
  }
   
