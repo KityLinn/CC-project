@@ -305,6 +305,7 @@ body {
     text-align: center;
     border-radius: 10px;
     padding: 0 4px 0 4px;
+    color: #212121;
 
   }
 
@@ -315,11 +316,10 @@ body {
     text-align: center;
     border-radius: 10px;
     padding: 0 4px 0 4px;
-    color: #212121;
 
   }
 
-  .next a {
+  .prev a {
     height: 100%;
     width: 100%;
     color: #212121;
@@ -351,7 +351,9 @@ body {
     .games_container p {
         font-size: 0.8rem;
       }
-          
+      
+
+    
   }
 
 @media (max-width:513px) {
