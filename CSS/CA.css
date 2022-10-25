@@ -163,6 +163,9 @@ body {
   width: 100%;
   background-color: #f4f2f2;
   border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation {
@@ -172,24 +175,29 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: center;
+  gap: 8vw;
+
 }
 
-.navigation li {
-  padding: 1vw;
-  padding-left: 6vw;
-}
+
 
 .navigation li a {
   text-decoration: none;
   color: #212121;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 @media (max-width: 540px) {
   .navigation li a {
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 438px) {
+  .navigation {
+    gap: 4vw;
   }
 }
 
