@@ -195,7 +195,7 @@ body {
 /* Main content */
 
 .games_section {
-    height:  auto;
+    height:  fit-content;
     margin-bottom: 8vh;
     width: 100vw;
     display: flex;
@@ -218,7 +218,7 @@ body {
   }
   
   .games_head h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   
@@ -233,86 +233,42 @@ body {
   
   @media (max-width:482px) {
     .games_head h2 {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
     
   }
 
 .our_games {
-    margin-top: 8vh;
-    overflow: hidden;
-    width: 60vw;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: grid;
+  margin-top: 8vh;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-auto-rows: repeat(auto-fit, 250px);
+  grid-gap: 80px;
+  justify-content: center;
+  width: 80vw;
 
-  
-    
   
   }
   .games_container {
-    width: 230px;
-    background-color: #F4F2F2;
     height: fit-content;
+    background-color:#f4f2f2;
     margin: 0;
     padding: 0;
-    border-radius: 0px 0px 10px 10px;
-  }
-
-
-  @media (max-width:1200px) {
-    .games_container {
-        width: 200px;
-    }
-    
-  }
-
-  @media (max-width:1065px) {
-    .games_container {
-        width: 180px;
-    }
-    
-  }
-
-  @media (max-width:944px) {
-    .games_container {
-        width: 160px;
-    }
-    
-  }
-
-  @media (max-width:824px) {
-    .games_container {
-        width: 140px;
-    }
-    
-  }
-  @media (max-width:720px) {
-    .games_container {
-        width: 130px;
-    }
-    .our_games {
-        width: 80vw;
-    }
-    
-  }
-
-
-
-
+    border-radius: 0 0 10px 10px;}
 
 
   .assassin {
-    margin-top: 8vh;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    width: 60vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    grid-column: 2;
   }
+
+  @media (max-width:1249px) {
+    .assassin {
+      grid-column: auto;
+    }
+
+    
+  }
+
   
   .games_container img {
     width: 100%;
@@ -321,41 +277,16 @@ body {
   
   .games_container p {
     font-family:"Roboto", sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 700;
     padding: 0.5vw;
     margin: 0;
   }
 
-    
-  @media (max-width:824px) {
-    .games_container p {
-      font-size: 0.8em;
-    }
+  @media (max-width:725px) {
+
     
   }
-
-  @media (max-width:682px) {
-    .games_container p {
-      font-size: 0.7em;
-    }
-    
-  }
-
-  @media (max-width:588px) {
-    .games_container p {
-      font-size: 0.6em;
-    }
-    
-  }
-
-  @media (max-width:482px) {
-    .games_container p {
-      font-size: 0.5em;
-    }
-    
-  }
-
 
 
 
