@@ -283,13 +283,73 @@ body {
     margin: 0;
   }
 
-  @media (max-width:725px) {
+  .next_prev {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-right: 10vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    display: none;
+
+  }
+
+  .next {
+    background-color: #d9d9d9;
+    width: 120px;
+    height: fit-content;
+    margin-left: 5vw;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 4px 0 4px;
+
+  }
+
+  .prev {
+    background-color: #d9d9d9;
+    width: 120px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 4px 0 4px;
+
+  }
+
+  @media (max-width:735px) {
+    .hiden {
+      display: none;
+    }
+    .next_prev {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    }
+
+    .our_games {
+
+      grid-template-columns: repeat(auto-fit, 180px);
+      grid-gap: 50px;
+      width: 85%; }
+
+
+    .games_container p {
+        font-size: 0.8rem;
+      }
+      
 
     
   }
 
-
-
+@media (max-width:513px) {
+  .our_games {
+    grid-template-columns: repeat(auto-fit, 150px);
+    grid-gap: 15px;
+    width: 90%;
+  }
+  }
 
 
 /* Footer with Media queries */
