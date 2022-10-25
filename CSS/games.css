@@ -261,7 +261,7 @@ body {
     grid-column: 2;
   }
 
-  @media (max-width:1249px) {
+  @media (max-width:1137px) {
     .assassin {
       grid-column: auto;
     }
