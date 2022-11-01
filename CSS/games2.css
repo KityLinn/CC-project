@@ -312,32 +312,30 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     display: none;
+    font-size: 0.8rem;
 
   }
 
   .next {
     background-color: #d9d9d9;
-    width: 120px;
-    height: fit-content;
+    width: 15vw;
     margin-left: 5vw;
     text-align: center;
     border-radius: 10px;
-    padding: 0 4px 0 4px;
-    color: #212121;
-
+    padding: 0 1vw 0 1vw;
   }
 
   .prev {
     background-color: #d9d9d9;
-    width: 120px;
-    height: fit-content;
+    width: 15vw;
     text-align: center;
     border-radius: 10px;
-    padding: 0 4px 0 4px;
+    padding: 0 1vw 0 1vw;
+    color: #212121;
 
   }
 
-  .prev a {
+  .next a {
     height: 100%;
     width: 100%;
     color: #212121;
@@ -355,8 +353,6 @@ body {
     }
     .next_prev {
     display: flex;
-    justify-content: right;
-    flex-direction: row;
     }
 
     .our_games {
@@ -369,10 +365,25 @@ body {
     .games_container p {
         font-size: 0.8rem;
       }
-      
 
-    
+    .games_section{
+      margin-bottom: 4vh;
+    }
+          
   }
+@media (max-width:548px) {
+  .next_prev {
+    font-size: 0.7rem;
+  }
+
+  .next {
+    width: 20vw;
+  }
+
+  .prev {
+    width: 20vw;
+  }
+}
 
 @media (max-width:513px) {
   .our_games {
