@@ -224,11 +224,9 @@ body {
 .contact_head {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
   justify-content: center;
   color: #212121;
-  font-family: 'Lato', sans-serif;
   
 
 }
