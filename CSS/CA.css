@@ -418,11 +418,14 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
-  align-items: flex-start;
-
-  
-
+  align-items: flex-start;  
 }
+
+.latest_games a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .games_container {
   width: 250px;
   height: fit-content;
@@ -430,8 +433,8 @@ body {
   margin: 0;
   padding: 0;
   border-radius: 0px 0px 10px 10px;
-  
 }
+
 
 @media (min-width:1600px) {
   .games_container {
