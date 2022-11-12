@@ -520,7 +520,8 @@ input[type="checkbox"]:checked ~.overlay {
 
 .modal_icon {
   margin-left: auto;
-  padding-right: 10px;
+  padding-right: 13px;
+  padding-top: 10px;
   font-size: 1.5rem;
 
 }
@@ -640,9 +641,6 @@ input[type="checkbox"]:checked ~.modal {
 
   }
 
-  .modal_icon {
-    font-size: 1rem;
-  }
 
   .modal_cart  {
     width: 120px;

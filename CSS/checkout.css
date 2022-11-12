@@ -263,9 +263,39 @@ body {
 
 .form input[type=text] {
   font-weight: 700;
-  padding: 5px;
+  padding: 10px;
   width: 200px;
+  text-align: center;
+  border: #000 solid 2px;
+}
 
+.form-wicon i{
+  position:absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+
+.form-wicon {
+  width: 100%;
+}
+
+.checkout_gift {
+  border: #000 solid 2px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  font-weight: 700;
+  margin-top: 6vh;
+}
+
+.checkout_gift p {
+  margin: 0;
+  padding: 3px;
+}
+
+.checkout_gift input {
+  margin-left: 50px;
 }
 
 .checkout_game {
@@ -281,7 +311,7 @@ body {
 
 .checkout_img {
   height: 15vh;
-  width: 100px;
+  width: 90px;
 }
 
 .checkout_img img {
@@ -289,6 +319,9 @@ body {
   width: 100%;
 }
 
+.checkout_name {
+  padding-left: 10px;
+}
 
 .checkout_price {
   margin-left: auto;
@@ -350,7 +383,152 @@ body {
   }
 
   
+}
+
+/* modal */
+#add_cart {
+  display: none;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.checkout_pay_btn {
+  margin-top: 4vh;
+  background-color: #7FA721;
+  font-size: 1rem;
+  font-weight: 900;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #212121;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left: 0;
+  z-index: 3;
+  background-color: #000;
+  pointer-events: none;
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked ~.overlay {
+  pointer-events: auto;
+  opacity: 0.7;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left: 0;
+  z-index: 4;
+  pointer-events: none;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal_content {
+  max-width: 600px;
+  width: 100%;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4F2F2;
   
+}
+
+.modal_content a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.modal_icon {
+  margin-left: auto;
+  padding-right: 13px;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+
+.modal_text {
+  width: 300px;
+}
+
+.modal_front {
+  height: 40px;
+  width: 160px;
+  background-color:#F4F2F2;
+  border-radius: 10px;
+  border: #000 solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 10px #212121;
+  margin-top: 18vh;
+}
+
+
+input[type="checkbox"]:checked ~.modal {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+@media (max-width:680px) {
+  .modal_content {
+    max-width: 400px;
+    height: 300px;
+
+  }
+  
+
+  .modal_icon {
+    font-size: 1rem;
+  }
+
+  .modal_front {
+    height: 30px;
+    font-size: 0.9rem;
+    margin-top: 5vh;
+  }
+
+}
+
+@media (max-width:470px) {
+  .modal_content {
+    max-width: 300px;
+    height: 300px;
+
+  }
+  
+
+  .modal_cart  {
+    width: 120px;
+    font-size: 0.8rem;
+  }
+
+  .modal_front {
+    width: 120px;
+    font-size: 0.8rem;
+    margin-top: 1vh;
+  }
+
+  .modal_text {
+    width: 200px;
+  }
+
+
 }
 
 /* Footer with Media queries */
