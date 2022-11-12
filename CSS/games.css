@@ -256,6 +256,13 @@ body {
     
   }
 
+  @media (max-width:450px) {
+    .games_head {
+      width: 90vw;
+    }
+    
+  }
+
 .our_games {
   display: grid;
   margin-top: 8vh;
@@ -309,6 +316,7 @@ body {
     font-weight: 700;
     padding: 0.5vw;
     margin: 0;
+    padding-left: 15px;
   }
 
   .next_prev {
@@ -398,7 +406,7 @@ body {
 @media (max-width:513px) {
   .our_games {
     grid-template-columns: repeat(auto-fit, 150px);
-    grid-gap: 15px;
+    grid-gap: 20px;
     width: 90%;
   }
   }
