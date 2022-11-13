@@ -312,8 +312,8 @@
  /* Main content newsletter*/
 
 .newsletter_section {
-  margin-top: 8vh;
-  height: 80vh;
+  margin: 8vh 0;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -330,127 +330,111 @@
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
-
 }
 
-.singup {
-  margin-top: 8vh;
-  width: 60vw;
-  min-height: 50vh;
-  background-image: url(../images/keyboard-ga36c8fe8c_1920.jpg);
+.signup_box {
+  margin-top: 7vh;
+  width: 80vw;
+  height: fit-content;
+  background-image: url(../images/robert-torres-RhiBonWtisw-unsplash.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
   overflow: hidden;
-}
-
-
-
-.signup_color {
-  height: 100%;
-  width: 100%;
   display: flex;
   justify-content: center;
-  background-color: var(--img-bg-color);
-  padding: 0;
+  align-items: center;
+  padding: 10vh 0;
+}
+
+.signup_container {
+  background-color: var(--main-white-color);
+  height: fit-content;
+  width: 50vw;
+  font-weight: 900;
+  padding: 5vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+  box-shadow: var(--box-shadow-inn);
+  gap: 5vh;
+}
+
+.signup_container p {
+  width: 50%;
+  font-size: 1.2rem;
   margin: 0;
 }
 
-.signup_main {
-  min-height: 30vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-shrink: inherit;
-  padding: 0;
-  padding-top: 3vh;
-
-}
-
-.signup_main p {
-  color: var(--black);
-  text-align: center;
-  padding: 0;
-  margin: 0.01;
-}
-
-.signup_box {
-  min-height: 30vh;
-  max-width: 30vw;
-  overflow: hidden;
-  background-color: var(--main-white-color);
-  padding-left: 20px;
-  padding-right: 20px;
-  box-shadow: var(--box-shadow-inn);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.signup_main p {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.email {
-  padding: 0.5rem;
+.signup_container input[type=email]{
   font-size: 1rem;
+  padding: 4px;
   font-weight: 700;
-  color: var(--black);
 }
-
 .submitbutton {
-  padding: 0.5rem;
   font-size: 1rem;
+  padding: 4px;
   font-weight: 700;
-  color: var(--black);
 }
-
-@media (max-width:626px) {
-  .signup_main p {
-    font-size: 0.9rem;
-
+@media (max-width:1000px) {
+  .signup_container p {
+    width: 60%;
   }
-  .email {
-    font-size: 0.8rem;
-
-  }
-
-  .submitbutton {
-    font-size: 0.8rem;
-
-  }
-
-  .singup {
-    width: 80vw;
-  }
-  .signup_box {
-    max-width: 60vw;
-
-  }
-
   
 }
 
-@media (max-width: 358px) {
-  .signup_main p {
-    font-size: 0.8rem;
-
+@media (max-width:704px) {
+  .signup_container p {
+    width: 60%;
+    font-size: 1rem;
   }
-  .email {
-    font-size: 0.7rem;
+  .signup_container {
+    width: 60vw;
+  }
+  
+}
 
+@media (max-width:584px) {
+  .signup_container p {
+    font-size: 0.9rem;
+    width: 70%;
+  }
+  .signup_container {
+    width: 65vw;
   }
 
   .submitbutton {
-    font-size: 0.7rem;
-
+    font-size: 0.9rem;
   }
+
+  .signup_container input[type=email] {
+    font-size: 0.9rem;
+  }
+  
 }
+
+
+@media (max-width:470px) {
+  .signup_container p {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+  .signup_container {
+    width: 70vw;
+  }
+
+  .submitbutton {
+    font-size: 0.8rem;
+  }
+
+  .signup_container input[type=email] {
+    font-size: 0.8rem;
+  }
+  
+}
+
+
 
 
