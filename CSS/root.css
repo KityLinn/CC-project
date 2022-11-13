@@ -104,39 +104,27 @@ body {
       margin-left: 4vw;
     }
   }
+
   
   .navigation2 a {
     text-decoration: none;
     font-family: var(--roboto-font);
-    color: #212121;
+    color: var(--black);
     font-weight: 500;
     font-size: 1.1rem;
-  
   }
   
-  .navigation2 li img {
+  .navigation2 li i {
     height: 3vh;
     display: block;
-    margin-left: 13%;
   }
-  
-  .contact {
-    padding-left: 10%;
+
+  .navigation2 i {
+    margin-left: 22%;
+    margin-bottom: 3%;
+    font-size: 1.4rem;
   }
-  
-  .log_in {
-    padding-left: 18%;
-  }
-  
-  .about_us {
-    padding-left: 18%;
-  }
-  
-  
-  .news {
-    padding-left: 10%;
-  }
-  
+
   
   .searchbar {
     height: 3vh;

@@ -52,8 +52,22 @@
   background-color: var(--main-white-color);
   box-shadow: var(--box-shadow-inn);
   margin-bottom: 5vh;
-
+  font-size: 2rem;
+  font-family: var(--lato-font);
+  color: var(--black);
+  padding: 15px;
+  font-weight: 700;
 }
+
+
+.cta_main a :hover{
+  cursor: pointer;
+  background-color: var(--black);
+  color: var(--main-white-color);
+  border: 2px solid var(--main-white-color);
+  
+}
+
 
 
 .cta_main h1 {
@@ -65,12 +79,7 @@
 }
 
 
-.cta_main h2 {
-  color: var(--black);
-  font-weight: 700;
-  font-size: 1.9rem;
-  
-}
+
 
 .cta_main h3 {
   color: var(--main-white-color);
@@ -86,11 +95,7 @@
     font-size: 2.3rem;
 
   }
-  .cta_main h2 {
 
-    font-size: 1.6rem;
-
-  }
   .cta_main h3 {
     font-size: 1.2rem;
 
@@ -104,11 +109,10 @@
     font-size: 1.9rem;
 
   }
-  .cta_main h2 {
-
-    font-size: 1.7rem;
-
+  .cta_main button {
+    font-size: 1.6rem;
   }
+
   .cta_main h3 {
     font-size: 1.1rem;
 
@@ -117,20 +121,17 @@
   .cta_main {
     padding-top: 7vh;
     width: 80%;
-  }
-
-}
+  }  }
 
 @media (max-width: 553px) {
   .cta_main h1 {
     font-size: 1.6rem;
 
   }
-  .cta_main h2 {
-
+  .cta_main button {
     font-size: 1.4rem;
-
   }
+  
   .cta_main h3 {
     font-size: 1.1rem;
 
@@ -148,10 +149,8 @@
     font-size: 1.5rem;
   
   }
-  .cta_main h2 {
-  
+  .cta_main button {
     font-size: 1.2rem;
-  
   }
   .cta_main h3 {
     font-size: 1rem;
@@ -336,7 +335,7 @@
   margin-top: 7vh;
   width: 80vw;
   height: fit-content;
-  background-image: url(../images/robert-torres-RhiBonWtisw-unsplash.webp);
+  background-image: url(../images/dries-augustyns-WzKPT0IuUrU-unsplash.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -353,7 +352,7 @@
   height: fit-content;
   width: 50vw;
   font-weight: 900;
-  padding: 5vh 0;
+  padding: 10vh 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -372,12 +371,20 @@
   font-size: 1rem;
   padding: 4px;
   font-weight: 700;
+  border-radius: 5px;
 }
+
 .submitbutton {
   font-size: 1rem;
   padding: 4px;
   font-weight: 700;
+  border-radius: 5px;
+  background-color: var(--main-white-color);
+  color: var(--black);
+  cursor: pointer;
 }
+
+
 @media (max-width:1000px) {
   .signup_container p {
     width: 60%;
@@ -422,7 +429,7 @@
     width: 80%;
   }
   .signup_container {
-    width: 70vw;
+    width: 75vw;
   }
 
   .submitbutton {
