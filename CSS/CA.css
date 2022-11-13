@@ -383,6 +383,10 @@
   color: var(--black);
   cursor: pointer;
 }
+.submitbutton:hover {
+  background-color:var(--black);
+  color:var(--main-white-color);
+}
 
 
 @media (max-width:1000px) {
