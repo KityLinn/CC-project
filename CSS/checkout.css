@@ -3,6 +3,10 @@
 
 /* Main cotent checkout*/
 
+h3 {
+  color: var(--black);
+}
+
 .checkout_section {
   height: fit-content;
   margin: 8vh 0 8vh 0;
@@ -38,7 +42,7 @@
 .checkout_pay {
   height: fit-content;
   padding-bottom: 20px;
-  width: 300px;
+  width: fit-content;
   background-color: var(--main-white-color);
   display: flex;
   flex-direction: column;
@@ -51,14 +55,15 @@
   margin-bottom: 5vh;
 }
 
-.form {
+.checkout_pay form {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 3vh;
+  margin: 0 30px;
 }
 
-.form input[type=text] {
+.checkout_pay input[type=text] {
   font-weight: 700;
   padding: 10px;
   width: 200px;
@@ -79,20 +84,14 @@
 
 .checkout_gift {
   border: #000 solid 2px;
-  display: flex;
-  flex-direction: row;
-  width: 200px;
   font-weight: 700;
   margin-top: 6vh;
+  padding: 8px;
 }
 
-.checkout_gift p {
-  margin: 0;
-  padding: 3px;
-}
 
 .checkout_gift input {
-  margin-left: 50px;
+  margin-left: 15px;
 }
 
 .checkout_game {
@@ -127,9 +126,27 @@
 }
 .checkout_info {
   box-shadow:var(--box-shadow-inn);
-  width: 450px;
-  height: 40vh;
+  width:fit-content;
+  height: fit-content;
   background-color: var(--main-white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout_info form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 5vh;
+  
+}
+
+.checkout_info input {
+  width: 300px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 0 40px;
 }
 
 @media (max-width:1000px) {
@@ -142,6 +159,9 @@
 
   .checkout_info{
     width: 330px;
+}
+.checkout_info input {
+  width: 250px;
 
 }
 .checkout_pay {
@@ -179,7 +199,19 @@
     align-self: center;
   }
 
-  
+  .checkout_info input {
+    width: 60vw;
+  }
+
+  .checkout_pay input[type=text] {
+    width: 60vw;
+  }
+
+  .checkout_gift {
+    width: 55vw;
+    text-align: center;
+  }
+
 }
 
 /* modal */
