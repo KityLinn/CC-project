@@ -1,6 +1,7 @@
 @import "root.css";
 
 
+
 /* Main content call to action*/
 
 .cta_section {
@@ -13,7 +14,7 @@
 
 .cta {
   width: 80vw;
-  background-image: url(../images/robert-torres-RhiBonWtisw-unsplash.jpg);
+  background-image: url(../images/robert-torres-RhiBonWtisw-unsplash.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
