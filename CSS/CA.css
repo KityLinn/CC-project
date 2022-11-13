@@ -47,7 +47,7 @@
 
 }
 
-.cta_main button {
+.cta_main a{
   border-radius: 10px;
   background-color: var(--main-white-color);
   box-shadow: var(--box-shadow-inn);
@@ -57,10 +57,12 @@
   color: var(--black);
   padding: 15px;
   font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--black);
 }
 
 
-.cta_main a :hover{
+.cta_main a:hover{
   cursor: pointer;
   background-color: var(--black);
   color: var(--main-white-color);
