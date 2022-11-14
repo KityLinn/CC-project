@@ -134,6 +134,10 @@ h3 {
   align-items: center;
 }
 
+.checkout_info label {
+  display: none;
+}
+
 .checkout_info form {
   display: flex;
   flex-direction: column;

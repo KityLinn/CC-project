@@ -95,15 +95,11 @@
 @media (max-width: 1107px) {
   .cta_main h1 {
     font-size: 2.3rem;
-
   }
-
   .cta_main h3 {
     font-size: 1.2rem;
 
   }
-
-
 }
 
 @media (max-width: 700px) {
@@ -111,8 +107,8 @@
     font-size: 1.9rem;
 
   }
-  .cta_main button {
-    font-size: 1.6rem;
+  .cta_main a {
+    font-size: 1.7rem;
   }
 
   .cta_main h3 {
@@ -130,8 +126,8 @@
     font-size: 1.6rem;
 
   }
-  .cta_main button {
-    font-size: 1.4rem;
+  .cta_main a {
+    font-size: 1.3rem;
   }
   
   .cta_main h3 {
@@ -151,8 +147,8 @@
     font-size: 1.5rem;
   
   }
-  .cta_main button {
-    font-size: 1.2rem;
+  .cta_main a {
+    font-size: 1.1rem;
   }
   .cta_main h3 {
     font-size: 1rem;
