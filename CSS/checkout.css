@@ -296,8 +296,8 @@ input[type="checkbox"]:checked ~.overlay {
 }
 
 .modal_front {
-  height: 40px;
-  width: 160px;
+  height: 50px;
+  width: 170px;
   background-color:var(--main-white-color);
   border-radius: 10px;
   border: #000 solid 2px;
@@ -305,7 +305,7 @@ input[type="checkbox"]:checked ~.overlay {
   align-items: center;
   justify-content: center;
   box-shadow: var(--box-shadow-inn);
-  margin-top: 18vh;
+  margin-top: 80px;
 }
 
 
